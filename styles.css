@@ -32,11 +32,16 @@ header .logo {
     display: flex;
 }
 
+.group .navegation {
+    font-weight: 600;
+}
+
 .group .navegation, 
 .group .action {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
 }
 
 .group ul li {
@@ -50,7 +55,9 @@ header .logo {
 }
 
 .group .action {
-    margin-left: 20px;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .group .action li a {
